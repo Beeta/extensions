@@ -5,7 +5,8 @@
   "type": "module",
   "description": "Community app language packs for Muxy",
   "scripts": {
-    "build": "node scripts/copy-manifest.mjs"
+    "build": "node scripts/copy-manifest.mjs",
+    "test": "node --test scripts/catalogs.test.mjs"
   },
   "muxy": {
     "$schema": "https://raw.githubusercontent.com/muxy-app/muxy/main/docs/extensions/schema/manifest.schema.json",
